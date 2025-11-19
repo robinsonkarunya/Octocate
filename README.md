@@ -1,1 +1,1 @@
-# Octocate
+# Octocat
