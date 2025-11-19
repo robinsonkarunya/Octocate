@@ -13,6 +13,4 @@
 <p align="center"> 
   <img src="https://komarev.com/ghpvc/?username=robinsonkarunya&style=flat-square&color=blue" alt="Profile views" /> 
 </p>
-## 📈 My GitHub Stats
 
-[![Robinson P's GitHub Stats](https://github-readme-stats.vercel.app/api?username=robinsonkarunya&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
