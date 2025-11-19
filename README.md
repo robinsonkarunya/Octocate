@@ -8,3 +8,23 @@
 ## 💻 Top Languages
 
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=robinsonkarunya&layout=compact&theme=radical&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+
+name: Latest blog post workflow
+on:
+  schedule:
+    - cron: '0 8 * * *' # Runs daily at 8:00 AM UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_url: 
+          max_post_count: "5"
+          date_format: "yyyy-mm-dd"
+          comment_tag_name: "BLOG-POST-LIST"
+          commit_message: "Update README with latest blog posts"
