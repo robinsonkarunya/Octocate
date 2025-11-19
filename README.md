@@ -8,9 +8,5 @@
 ## 💻 Top Languages
 
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=robinsonkarunya&layout=compact&theme=radical&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
-## 👁️ Profile Views
 
-<p align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=robinsonkarunya&style=flat-square&color=blue" alt="Profile views" /> 
-</p>
 
